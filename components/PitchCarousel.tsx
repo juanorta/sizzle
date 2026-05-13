@@ -1,13 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import {
-  CartIcon,
-  ChartIcon,
-  LearnIcon,
-  MoneyIcon,
-  PickIcon,
-} from "./PitchIcons";
+import { CartIcon, ChartIcon, LearnIcon, MoneyIcon } from "./PitchIcons";
 
 type Slide = {
   tab: string;
@@ -42,13 +36,6 @@ const SLIDES: Slide[] = [
       </>
     ),
     body: "Reheating feeds you for one meal. Cooking adds to a skill you'll use the next 60 years. Convenience ends with the tray; the skill keeps paying.",
-  },
-  {
-    tab: "Pick",
-    Icon: PickIcon,
-    eyebrow: "On your terms",
-    title: <>Pick what you actually want to eat.</>,
-    body: "Browse beautiful recipes with nutrition up front. Add as many as you want this week. Three meals, seven, whatever.",
   },
   {
     tab: "One tap",

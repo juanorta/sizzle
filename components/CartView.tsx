@@ -175,7 +175,7 @@ export function CartView({ cart, onBack, onRemove, onSetQty, onClear, onCheckout
               />
             </svg>
           </button>
-          <p className="mt-2 text-center text-[11px] leading-relaxed text-ink/45">
+          <p className="mt-2 hidden text-center text-[11px] leading-relaxed text-ink/45 sm:block">
             Opens Walmart with your cart pre-filled. Some items may default to shipping.
             Tap each one at checkout and choose <span className="font-medium text-ink/70">Pickup</span> if you'd rather grab them at the store.
           </p>
